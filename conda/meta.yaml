@@ -3,14 +3,15 @@ package:
   version: 0.9.1
 
 source:
-  git_rev: xxx
+  git_rev: latest
   git_url: https://github.com/DavidMertz/python-0.9.1.git 
+
 requirements:
   build:
     - make
 
 about:
-  license: https://github.com/smontanaro/python-0.9.1/blob/main/README
+  license: https://github.com/DavidMertz/python-0.9.1/blob/main/README
   license_family: OTHER
   summary: Earliest known archive of Python language
 
