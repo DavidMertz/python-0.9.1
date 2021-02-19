@@ -1,3 +1,3 @@
 #!/bin/bash
-PYTHONPATH=$CONDA_PREFIX/lib/ python-0.9.1
+PYTHONPATH=$CONDA_PREFIX/lib/ python-0.9.1 "$@"
 
