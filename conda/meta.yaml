@@ -3,9 +3,8 @@ package:
   version: 0.9.1
 
 source:
-  git_rev: f7125a86a9994de100a6f96e76aed8a12d0a1dca
-  git_url: https://github.com/smontanaro/python-0.9.1
-
+  git_rev: xxx
+  git_url: https://github.com/DavidMertz/python-0.9.1.git 
 requirements:
   build:
     - make
