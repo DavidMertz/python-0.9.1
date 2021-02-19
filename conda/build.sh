@@ -8,7 +8,8 @@ cp lib/*.py $PREFIX/lib
 mkdir -p $PREFIX/bin
 cp conda/python $PREFIX/bin/python
 cd src
-make
+# sudo apt-get install gcc-multilib
+CC='gcc -m32' make python
 cp python $PREFIX/bin/python-0.9.1
 
 
